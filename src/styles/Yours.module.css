@@ -1,0 +1,31 @@
+body{
+    background-color: aliceblue;
+}
+.border{
+    height: 400px;
+    width: 400px;
+    margin-left: 100px;
+}
+.p{
+    font-size: 50px;
+    margin: 0%;
+}
+.test{
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.oto{
+    height: 800px;
+    width: 700px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.araas{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-between;
+}

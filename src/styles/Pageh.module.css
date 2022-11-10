@@ -1,0 +1,70 @@
+.border{
+    height: 200vh;
+    width: 60vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.hand{
+    font-size: 50px;
+    margin-top: 100px;
+}
+.circle{
+    height: 60px;
+    width: 60px;
+    
+}
+.fleo{
+    display: flex;
+    justify-content: center;
+}
+.bag{
+    height: 500px;
+    width: 1000px;
+    margin-top: 100px;
+}
+.tsetseg{
+    width: 25vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.by{
+    font-size: 14px;
+    margin: 0;
+}
+.bish{
+    display: flex;
+}
+.name{
+    margin: 3px;
+    font-size: 20px;
+}
+.app{
+    color: gray;
+    font-size: 15px;
+}
+.loco{
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.daraa{
+    font-size: 20px;
+    color: gray;
+    margin-top: 60px;
+}
+.jarjar{
+    height: 60px;
+    width: 60px;
+}
+.input{
+    height: 120px;
+    width: 400px;
+    margin-left: 10px;
+    
+}

@@ -1,0 +1,44 @@
+.review2{
+    height: 430px;
+    width: 350px;
+    background-color: white;
+    border-radius: 15px;
+   
+  }
+  .img2{
+    height: 130px;
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+  }
+  .h2{
+    margin: 20px;
+  }
+  .p{
+    margin: 20px;
+  }
+  .img3{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  .foot{
+    display: flex;
+    align-items: center;
+  }
+  .p2{
+    font-size: 13px;
+    color: gray;
+    padding-top: 25px;
+
+  }
+  .p1{
+    font-size: 13px;
+    color: gray;
+    margin-left: 30px;
+    padding-top: 25px;
+  }
+  .mur{
+    display: flex;
+  }
+  

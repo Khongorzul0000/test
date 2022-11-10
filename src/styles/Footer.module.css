@@ -1,0 +1,54 @@
+.footer{
+    height: 45vh;
+    width: 100vw;
+    background-color: rgb(32, 41, 53);
+    display: flex;
+    justify-content: space-around;
+}
+.border{
+    height: 35vh;
+    width: 250px;   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.p{
+    color: white;
+    font-size: 40px;
+    margin-bottom: -10px;
+}
+.flex{
+    display: flex;
+    margin-top: 30px;
+}
+.margin{
+    margin: 0;
+    font-size: 20px;
+    margin-left: 30px;
+    color: white;
+    margin-bottom: -5px;
+}
+.tom{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    
+}
+.sub{
+    color: white;
+    font-size: 25px;
+    margin-top: 50px;
+}
+.imput{
+    display: flex;
+    flex-direction: column;
+}
+.deed{
+    height: 50vh;
+    width: 100vw;
+    background-color: white;
+}
