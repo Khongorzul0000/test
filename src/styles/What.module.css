@@ -1,18 +1,33 @@
 .what{
+    overflow: hidden;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    padding-left: 100px;
 }
 .p{
     font-size: 50px;
+    margin-bottom: 100px;
 }
 .jiji{
     display: flex;
     justify-content: center;
 }
 .margin{
-    margin-top: 100px;
-    margin-left: 100px;
     display: flex;
-    gap: 100px;
+    gap: 16px;
+    overflow: hidden;
+}
+.button{
+    width: 100px;
+    height: fit-content;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.hajuu{
+    display: flex;
+    gap: 16px;
+}
+.but{
+    margin-top: 70px;
 }

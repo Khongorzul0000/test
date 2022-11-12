@@ -2,34 +2,32 @@
     background-image: url("https://images.pexels.com/photos/592077/pexels-photo-592077.jpeg?cs=srgb&dl=pexels-katja-592077.jpg&fm=jpg");
     background-size: cover;
     height: 100vh;
+    padding-left: 150px;
 }
-.door{
-    height: 500px;
-    width: 700px;
-    margin-left: 250px;
-    margin-top: 10%;
+.gol{
+    display: flex;
+    align-items: center;
+   height: 100vh;
 }
-.test{
+.p{
+    font-size: 50px;
     color: white;
-    font-size: 60px;
+}
+.smallP{
+    font-size: 20px;
+    color: white;
 }
 .text{
-    color: white;
-    font-size: 23px;
-    width: 70%;
+    display: block;
 }
-.input{
+button{
     height: 50px;
-    width: 340px;
-    margin: 0;
-}
-.button{
-    height: 50px;
-    width: 160px;
-    color: white;
-    font-size: 15px;
-    background-color: rgb(0, 183, 255);
-    border-radius: 5px;
+    width: fit-content;
     border: 1px solid gray;
-   margin-left: 10px;
+    background-color: rgb(83, 118, 159);
+    border-radius: 5px;
+}
+.butin{
+    display: flex;
+    gap: 10px;
 }

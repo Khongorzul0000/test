@@ -13,7 +13,7 @@ export const Review = () => {
         </div>
         <div className="text">
           hfgoqryefgq owieufghqow ir7ty oeqwu ihfl wqieug rotwyt gleiw uhfd hsb
-          8yq8rty8wty y8ey yf fhwoelflaiuerhf oryf;qiry ruyggrhg
+          8yq8rty8wty y8ey yf 
         </div>
         <div className="ar">
           <img

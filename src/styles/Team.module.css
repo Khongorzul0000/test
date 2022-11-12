@@ -1,30 +1,5 @@
-.border{
-    height: 100px;
-    width: 80vw;
-
-   
-}
-.flex{
-    display: flex;
-    justify-content: center;
-}
-.team{
-    display: flex;
-    align-items: center;
-    height: 100%;
-    justify-content: space-between;
-}
 .taem{
     font-size: 40px;
-}
-.two{
-    height: 80px;
-    width: 900px;
-    
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-  
 }
 .link{
     color: gray;
@@ -48,5 +23,13 @@
     border: 1px solid rgb(111, 131, 172);
     color: rgb(0, 128, 255);
     margin-right: 100px;
-    
+}
+.darraa{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    border: 0px solid black;
+    width: 100%;
+    background-color: rgb(42, 65, 94);
+
 }

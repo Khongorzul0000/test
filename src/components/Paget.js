@@ -6,7 +6,6 @@ export const Paget = () => {
   return (
     <>
       <div className={styles.paget}>
-        <Team />
       </div>
       <div className={styles.blog}>Blog postes</div>
       <p className={styles.p}>

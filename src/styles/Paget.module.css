@@ -1,7 +1,7 @@
 .blog{
     margin-left: 10vw;
     font-size: 50px;
-    margin-top: 40px;
+    
 }
 .p{
     color: gray;
@@ -11,14 +11,13 @@
 .border{
     width: 80vw;
     height: 140vh;
-   
     margin-top: 40px;
 }    
 .flex{
     display: flex;
     justify-content: center;
 }
-.grid{
+.grid{                   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 78.5px;
@@ -31,4 +30,7 @@
     background-color: rgb(193, 189, 189);
     border: 1px solid rgb(193, 189, 189);
     border-radius: 5px;
+}
+.paget{
+    padding-top: 100px;
 }

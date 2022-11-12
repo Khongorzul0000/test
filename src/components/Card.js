@@ -2,7 +2,8 @@ import styles from "../styles/Card.module.css";
 import team from "../assets/Ellipse.png";
 export const Card = () => {
   return (
-    <div className={styles.review2}>
+    <div className={styles.help}>
+      <div className={styles.review2}>
       <img
         className={styles.img2}
         src="https://img.freepik.com/free-photo/abstract-grunge-decorative-relief-navy-blue-stucco-wall-texture-wide-angle-rough-colored-background_1258-28311.jpg?w=2000"
@@ -18,5 +19,7 @@ export const Card = () => {
         <p className={styles.p1}>1st of november</p>
       </div>
     </div>
+    </div>
   );
 };
+export default Card;

@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color: white;
+    color: rgb(251, 250, 250);
 }
 .p{
     color: white;
@@ -48,7 +48,7 @@ input{
     flex-direction: column;
 }
 .deed{
-    height: 50vh;
+    height: 30vh;
     width: 100vw;
-    background-color: white;
+    background-color: aliceblue;
 }

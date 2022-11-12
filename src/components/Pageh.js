@@ -9,7 +9,8 @@ import team from "../assets/Ellipse.png";
 export const Pageh = () => {
   return (
     <>
-      <Team />
+
+     
       <div className={styles.flex}>
         <div className={styles.border}>
           <div className={styles.fleo}>
