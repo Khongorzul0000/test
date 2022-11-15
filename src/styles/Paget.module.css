@@ -1,7 +1,6 @@
 .blog{
     margin-left: 10vw;
     font-size: 50px;
-    
 }
 .p{
     color: gray;
@@ -33,4 +32,32 @@
 }
 .paget{
     padding-top: 100px;
+}
+.dataB{
+    height: fit-content;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 10px;
+    
+}
+.randomP{
+    height: 150px;
+    width:300px;
+    border-radius: 10px;
+}
+.dataN{
+    color: black;
+    font-size:40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.randomT{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.randomI{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    margin-left: 20px;
 }

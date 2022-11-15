@@ -13,5 +13,5 @@ export * from "./Pageh";
 export * from "./Circle";
 export * from "./Write";
 export * from "./Face";
-
+export * from "./ThemeProvider";
 

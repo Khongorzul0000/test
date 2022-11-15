@@ -1,9 +1,12 @@
 import styles from "../styles/Actually.module.css";
 import mask from "../assets/Mask group (3).png";
+import { ThemeContext } from "./ThemeProvider";
+import { useContext } from "react";
 export const Actually = () => {
+  const { isDark, toggleTheme } = useContext(ThemeContext);
   return (
     <>
-      <div className={styles.flex}>
+      <div className={styles.flex} style={isDark ? { background: "#2d2f30", color: "#81827E" } : {}}>
         <div className={styles.border}>
           <p className={styles.p}>Scheduling that actually works</p>
           <p className={styles.text}>

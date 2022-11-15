@@ -4,8 +4,7 @@ body{
 .border{
     height: 400px;
     width: 400px;
-    
-    margin-left: 100px;
+    margin-left: 150px;
 }
 .p{
     margin-top: 0;
@@ -20,7 +19,6 @@ body{
     height: 600px;
     width: 600px;
     margin-right: 100px;
-
 }
 .flex{
     display: flex;

@@ -1,9 +1,12 @@
 import styles from "../styles/Simple.module.css";
 import brooke from "../assets/brooke-cagle-JBwcenOuRCg-unsplash (1) 1-1.png";
+import { useContext } from "react";
+import { ThemeContext } from "./ThemeProvider";
 export const Simple = () => {
+  const { isDark, toggleTheme } = useContext(ThemeContext);
   return (
     <>
-      <div className={styles.flex}>
+      <div className={styles.flex} style={isDark ? { background: "#2d2f30", color: "#81827E" } : {}}>
         <img className={styles.img} src={brooke}></img>
         <div className={styles.border}>
           <p className={styles.p}>Simple tast management</p>

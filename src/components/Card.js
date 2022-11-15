@@ -1,6 +1,9 @@
 import styles from "../styles/Card.module.css";
 import team from "../assets/Ellipse.png";
+
 export const Card = () => {
+  
+
   return (
     <div className={styles.help}>
       <div className={styles.review2}>
@@ -13,6 +16,7 @@ export const Card = () => {
         our lastest updates and blogs about managing your team our lastest
         updates and blogs about managing your team
       </p>
+      
       <div className={styles.foot}>
         <img className={styles.img3} src={team}></img>
         <p className={styles.p2}>jane cooper </p>

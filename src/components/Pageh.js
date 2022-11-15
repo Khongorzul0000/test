@@ -5,13 +5,16 @@ import { Write } from "../components/Write";
 import { Footer } from "../components/Footer";
 import bag from "../assets/Rectangle.png";
 import team from "../assets/Ellipse.png";
+import { ThemeContext } from "./ThemeProvider";
+import { useContext } from "react";
 
 export const Pageh = () => {
+  const { isDark, toggleTheme } = useContext(ThemeContext);
   return (
     <>
 
      
-      <div className={styles.flex}>
+      <div className={styles.flex} style={isDark ? { background: "#2d2f30", color: "#fff" } : {}}>
         <div className={styles.border}>
           <div className={styles.fleo}>
             <p className={styles.hand}>10 Secrets for managing aremote team</p>

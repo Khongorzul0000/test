@@ -1,9 +1,15 @@
 import styles from "../styles/Yours.module.css";
 import oto from "../assets/ooto Meetings 1.png";
+import { useContext } from "react";
+import { ThemeContext } from "./ThemeProvider";
+
+
 export const Yours = () => {
+  const { isDark, toggleTheme } = useContext(ThemeContext);
+
   return (
     <>
-      <div className={styles.araas}>
+      <div className={styles.araas} style={isDark ? { background: "#2d2f30", color: "#81827E" } : {}}>
         <div className={styles.flex}>
           <div className={styles.border}>
             <p className={styles.p}>Your hub for teamwork</p>
