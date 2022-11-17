@@ -10,6 +10,7 @@ const baseUrl = "https://dummyapi.io/data/v1/";
 
 export const What = () => {
   const { isDark, toggleTheme } = useContext(ThemeContext);
+  const [item, setItem]  = useState(0)
 
   const {data, setData} = useState(null)
   useEffect(() => {
@@ -30,9 +31,14 @@ export const What = () => {
   const [index, setIndex] = useState(0);
 
   const goright = () => setIndex((prev) => prev + 1);
-  const goleft = () => setIndex((prev) => prev - 1);
+  const goleft = () => setIndex((prev) => prev - 1 );
+  if(index < 0){
+    setIndex(index+1)
+  }
+  if(index >7){
+    setIndex(index-1)
+  }
 
-  
 
   return (
     <>

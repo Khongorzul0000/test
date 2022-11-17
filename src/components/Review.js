@@ -1,11 +1,15 @@
+import { useState } from "react";
 import { FaStar } from "react-icons/fa";
+import { ThemeContext } from "./ThemeProvider";import { useContext } from "react";
 
 export const Review = () => {
+  const { isDark, toggleTheme } = useContext(ThemeContext);
+  
   return (
     <div className="center">
       <div className="square">
         <div className="star">
-          <FaStar />
+          <FaStar onClick={toggleTheme}/>
           <FaStar />
           <FaStar />
           <FaStar />

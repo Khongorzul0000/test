@@ -1,19 +1,24 @@
 import styles from "../styles/Team.module.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { Face } from "../components/";
-import { useContext } from "react";
 import { Pageh } from "../components/";
 import { Paget } from "../components/";
-import { ThemeContext } from "./ThemeProvider";
+import { ThemeContext } from "../components/";
+import { Spinner, Button } from "react-bootstrap";
+import { useContext } from "react";
+
 
 export const Team = () => {
   const { isDark, toggleTheme } = useContext(ThemeContext);
   return (
     <BrowserRouter>
-      <div className={styles.darraa} >
+      <div className={styles.darraa}>
         <div className={styles.taem}>team.</div>
-        <div>
-          <button className={styles.tod} onClick={toggleTheme}>change mode</button>
+        <div className={styles.style}>
+          <Button className={styles.tod} onClick={toggleTheme}>
+            change mode
+          </Button>
+          <div>
           <Link className={styles.link} to="Home">
             Home
           </Link>
@@ -23,7 +28,8 @@ export const Team = () => {
           <Link className={styles.link} to="Blog">
             Blog
           </Link>
-          <button className={styles.button}>Get access</button>
+          </div>
+          <Button className={styles.button} variant="outlined ">Get access</Button>
         </div>
       </div>
       <div>

@@ -1,6 +1,5 @@
 import styles from "../styles/Paget.module.css";
-
-import { Card } from "../components/Card";
+import "bootstrap/dist/css/bootstrap.min.css";
 import { Footer } from "../components/Footer";
 import { ThemeContext } from "./ThemeProvider";
 import { Spinner, Button } from "react-bootstrap";
@@ -57,20 +56,29 @@ export const Paget = () => {
       <div className={styles.flex}>
         <div className={styles.border}>
           <div className={styles.grid}>
-            {!data && <Spinner />}
+            {!data && <Spinner animation="border" role="status" />}
             {data &&
               data.map(({ picture, firstName, id }) => (
                 <div className={styles.dataB}>
                   <img className={styles.randomP} src={picture}></img>
                   <p className={styles.dataN}>{firstName}</p>
-                  <p className={styles.randomT}>Lorem Ipsum when an unknown printer took a remaining essentially unchanged. and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                  <img className={styles.randomI} src={picture}></img>
-                  <div>{id}</div>
+                  <p className={styles.randomT}>
+                    {" "}
+                    Perceived end knowledge certainly day sweetness why
+                    cordially. Ask quick six seven offer see among. Handsome met
+                    debating sir dwelling age material. As style lived he worse
+                    dried. Offered related so visitor we private removed.
+                    Moderate do subjects to distance.
+                  </p>
+                  <div className={styles.zurag}>
+                    <img className={styles.randomI} src={picture}></img>
+                    <div className={styles.id}>{id}</div>
+                  </div>
                 </div>
               ))}
           </div>
           <div className={styles.flex}>
-            <button className={styles.but}> Next</button>
+            <Button className={styles.but}> Next</Button>
           </div>
           <Button onClick={prevPage}>prev</Button>
           <Button onClick={nextPage}>next</Button>
